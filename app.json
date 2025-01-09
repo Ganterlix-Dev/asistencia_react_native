@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MyApp",
+    "name": "Asistencia_App",
     "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ganterlix_dev.MyApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e7325d9a-1af5-47e1-8da4-597c26ee3a14"
+      }
     }
   }
 }

@@ -136,7 +136,7 @@ const App = () => {
         <TextInput style={styles.input} placeholder="Hora de inicio" value={startTime} onChangeText={handleStartChange} keyboardType="numbers-and-punctuation" />
         <TextInput style={styles.input} placeholder="Hora de finalización" value={endTime} onChangeText={handleEndChange} keyboardType="numbers-and-punctuation" />
         <Button title="Generar QR" onPress={Generar_QR} />
-        <p>Generado a las: {generationTime}</p>
+        <Text>Generado a las: {generationTime}</Text>
         {showQRCode && (
           <QRCode
             value={`${name},${surname},${idNumber},${materia},${currentDate},${startTime},${endTime}`}
